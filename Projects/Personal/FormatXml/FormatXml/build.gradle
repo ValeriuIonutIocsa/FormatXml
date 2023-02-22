@@ -1,0 +1,15 @@
+ext {
+    mainClass = 'com.personal.xml.AppStartFormatXml'
+    projectVersion = '1.0.0'
+    jarFolderPath = 'C:\\IVI\\Apps\\Scripts\\General\\FormatXml'
+
+    subProjectNames = [
+            ':xml-utils'
+    ]
+    compileClassPaths = []
+    compileJarFilePaths = []
+    testCompileClassPaths = []
+    testCompileJarFilePaths = []
+}
+
+apply from: gradle.ext.rootDirPath + '/common_build.gradle'
